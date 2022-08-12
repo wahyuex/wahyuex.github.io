@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css1.css">
+    <script src="https://kit.fontawesome.com/f4496ad183.js" crossorigin="anonymous"></script>
+    <title>dkr menganti</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a id="testjs" href="index.html"><img src="logo.png" alt="dkr">DKR Menganti</a>
+        </div>
+        <ul class="menu">
+            <li><a href="daftar.html">Pendaftaran
+                Event</a></li>
+            <li><a href="dokumentasi.html">Dokumentasi 
+                Kegiatan</a></li>
+            <li><a href="anggota.html">Anggota
+                DKR</a></li>
+            <li><a href="#footer">Tentang Kami</a></li>
+        </ul>
+    </nav>
+    <h1>Halo,Selamat Datang Di Web DKR Menganti</h1>
+    <h2>Dewan Kerja Ranting adalah wadah pembinaan dan pengembangan kaderisasi 
+        kepemimpinan di tingkat Kwartir yang beranggotakan Pramuka Penegak dan 
+        Pramuka Pandega Putri Putra, sebagai bagian integral dari Kwartir yang diberi 
+        wewenang dan kepercayaan untuk mengelola pembinaan dan kegiatan Pramuka 
+        Penegak dan Pramuka Pandega sesuai prinsip "dari, oleh dan untuk”</h2>
+    <h1>Disini kakak bisa mendaftar kegiatan kami 
+        di menu pendaftaran atau klik di sini</h1>
+    <a href="daftar.html"><button>DAFTAR!!</button></a>
+    <footer>
+        <div class="halo" id="footer">
+            <h3>Don't Forget To Follow My Social Media</h3>
+            <div class="footer">
+                <a href=""><i class="fa-brands fa-facebook fa-2x"></i></a>
+                <a href=""><i class="fa-brands fa-twitter fa-2x"></i></a>
+                <a href=""><i class="fa-brands fa-instagram fa-2x"></i></a>
+                <a href=""><i class="fa-brands fa-whatsapp fa-2x"></i></a>
+            </div>
+            <p><i class="fa-solid fa-copyright">Copyright DKR Menganti|Dewan Kerja Ranting</i></p>
+        </div>
+    </footer>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> 
+    <script>
+        /**const testjs = document.createElement('a');
+
+        testjs.textContent = 'Tak hack lo cok';
+        testjs.className = 'testjs2';
+        root.appendChild(testjs);**/
+        const root = document.querySelector('#testjs');
+        const elem = React.CreateElement('a',{
+            children : 'asudah',
+            ClassName : 'testrwact',
+        });
+        ReactDOM.render(elem,root);
+    </script>   
+</body>
+</html>
